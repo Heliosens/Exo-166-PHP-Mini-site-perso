@@ -1,11 +1,11 @@
 {
-    "name": "Doe",
-    "first_name": "Jane",
+    "name": "Bataille",
+    "first_name": "Sylvie",
     "occupation": "Web developer",
     "experiences": [
         {
             "year": 2020,
-            "company": "Samll Startup"
+            "company": "Small Startup"
         },
         {
             "year": 2019,

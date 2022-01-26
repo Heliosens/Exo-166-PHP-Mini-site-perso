@@ -2,6 +2,6 @@
 
 </footer>
 
-<script src="../public/app.js"></script>
+<script src="/app.js"></script>
 </body>
 </html>

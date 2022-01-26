@@ -12,13 +12,13 @@ html {
 body {
 	text-align: center;
 	font-family: Calibri, serif;
-	background: #ecf8fc;
+	background: #ddecf4;
 }
 
 header, footer {
 	margin: 0;
 	padding: 0;
-	background: cyan;
+	background: #add8e6;
 }
 
 footer {
@@ -33,18 +33,23 @@ ul {
 	justify-content: space-around;
 	align-items: center;
 }
+
 li {
 	margin-right: 18px;
+    width: 33%;
 }
+
 a {
 	text-decoration: none;
 }
+
 section, form {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
+
 section h1 {
 	margin: 8px;
 }
