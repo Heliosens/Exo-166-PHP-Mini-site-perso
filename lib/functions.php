@@ -27,3 +27,4 @@ function getPart($name) {
 function getUserData () {
     return json_decode(file_get_contents("../data/user.json"), true);
 }
+
