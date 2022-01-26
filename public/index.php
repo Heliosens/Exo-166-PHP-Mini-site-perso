@@ -12,8 +12,10 @@ require __DIR__ . '/../lib/functions.php';
 
 // l'exemple avec le header, à vous de jouer pour le reste
 getPart('header');
+
 getContent();
 
+getPart('footer');
 
-getUserData();
+
 

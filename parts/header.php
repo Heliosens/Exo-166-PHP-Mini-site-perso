@@ -4,10 +4,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, user-scalable=no">
         <title>Jane Doe</title>
-        <link rel="stylesheet" href="../public/style.css">
+        <link rel="stylesheet" href="/style.css">
     </head>
     <body>
         <header>
-            <h1>Jane Doe</h1>
+            <h1>Sylvie Bataille</h1>
             <?php getPart('menu'); ?>
         </header>

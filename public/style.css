@@ -8,21 +8,25 @@
 html {
 	font-size:62.5%;
 }
+
 body {
 	text-align: center;
 	font-family: Calibri, serif;
-	background: lightblue;
+	background: #ecf8fc;
 }
+
 header, footer {
 	margin: 0;
 	padding: 0;
 	background: cyan;
 }
+
 footer {
 	position: absolute;
 	top: 750px;
 	width: 100%;
 }
+
 ul {
 	display: flex;
 	list-style-type: none;
