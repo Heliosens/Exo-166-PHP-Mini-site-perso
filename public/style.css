@@ -68,3 +68,7 @@ section h1 {
 	border: 1px solid black;
 	margin: 0 1rem;
 }
+
+#test {
+	background-image: url("/img/papillon_pixel.png");
+}

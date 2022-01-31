@@ -6,7 +6,7 @@ $json = getUserData();
     <h2><?=$json["name"]?> <?=$json['first_name']?></h2>
 </section>
 <section>
-    <div>
+    <div id="test">
         <p>Aujourd'hui je suis :</p>
         <p><strong><?=$json["occupation"]?></strong></p>
         <p>Mon parcours :</p>
@@ -17,5 +17,6 @@ $json = getUserData();
             }
             ?>
         </div>
+
     </div>
 </section>
