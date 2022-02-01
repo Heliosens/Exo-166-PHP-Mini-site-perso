@@ -19,9 +19,6 @@ function getContent() {
     elseif(isset($_GET['page']) && $_GET['page'] == "admin") {
         include __DIR__.'/../pages/admin.php';
     }
-	elseif (isset($_GET['page']) && $_GET['page'] == "checkStatus"){
-	    include __DIR__.'/../pages/checkStatus.php';
-    }
 }
 
 function getPart($name) {
