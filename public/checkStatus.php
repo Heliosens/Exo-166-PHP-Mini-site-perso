@@ -1,4 +1,5 @@
 <?php
+session_start();
 if(isset($_POST["connection"], $_POST['password'])){
     if($_POST['password'] === "test"){
         $_SESSION['status'] = "admin";

@@ -26,4 +26,4 @@ else{
 
 file_put_contents("../data/last_message.json", json_encode($array));
 
-header('Location: /public/?page=contact');
+header('Location: /?page=contact');
