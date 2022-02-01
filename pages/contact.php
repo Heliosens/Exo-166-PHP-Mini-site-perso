@@ -25,4 +25,14 @@
             </div>
         </form>
     </div>
+    <?php
+
+if(isset($_SESSION['send'])){
+    echo $_SESSION['send'] === 'success' ? "Email envoyé avec succès" : "Échec de l'envoi de l'email";
+}
+else{
+    echo "";
+}
+$_SESSION['send'] = null;
+?>
 </section>
