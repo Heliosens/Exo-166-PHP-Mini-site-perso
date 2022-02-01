@@ -22,7 +22,7 @@
                 <p>message :</p>
                 <p>" . $item['content'] . "</p>";
             }
-            echo "<a href='../public/?page=admin&btn=0'>moins de messages</a>";
+            echo "<a href='/?page=admin&btn=0'>moins de messages</a>";
         }
         else {
             echo "<br>";
@@ -30,7 +30,7 @@
               <p> de : <strong>" . $data[$end]['name'] . "</strong> (". $data[$end]['mail'] . ")</p>
               <p>message :</p>
               <p>" . $data[$end]['content'] . "</p>";
-            echo "<a href='../public/?page=admin&btn=1'>plus de messages</a>";
+            echo "<a href='/?page=admin&btn=1'>plus de messages</a>";
         }
     }
     else {

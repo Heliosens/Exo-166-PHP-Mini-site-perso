@@ -22,7 +22,7 @@
                 switch ($_SESSION['status']){
                     case "admin" :
                         echo "<p>Vous étes connecté en tant qu'administrateur</p>";
-                        echo "<a href='../public/?page=checkStatus&co=0'>Déconnexion</a>";
+                        echo "<a href='/?page=checkStatus&co=0'>Déconnexion</a>";
                         break;
                     case "errorPass" :
                         echo "erreur de mot de passe";
